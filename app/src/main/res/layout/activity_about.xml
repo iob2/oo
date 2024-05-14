@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FDEAEE"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/abut2"
+            app:srcCompat="@mipmap/abut2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="342dp"
+            android:layout_height="193dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="267dp"
+            android:layout_marginEnd="34dp"
+            android:background="#D5EFF8"
+            android:gravity="center"
+            android:text="@string/not_all_of_us_trust_their_cheap_and_fake_products_that_may_harm_our_skin_due_to_their_longevity_we_need_their_products_and_everything_related_to_them_at_affordable_prices_our_app_will_help_users_search_for_a_more_cost_effective_alternative_to_high_quality_makeup_setting_it_apart_from_some_well_known_apps_that_may_cost_users_exorbitant_prices_there_will_be_many_good_affordable_brands_available_in_our_app_providing_you_with_solutions_that_can_help_you_achieve_a_better_look_on_a_limited_budget"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="544dp"
+            android:layout_marginEnd="129dp"
+            android:text="@string/my_name_maha_alqhtany"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="125dp"
+            tools:layout_editor_absoluteY="483dp" />
+    </RelativeLayout>
+</LinearLayout>
